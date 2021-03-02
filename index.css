@@ -1,8 +1,8 @@
 .logo{
     position: relative;
-    width: 1440px;
-    height: 2783px;
-    
+    width: 800px;
+    height: 183px;
+padding-top: 20px;
     background: #FFFFFF;
     }
     /* Why join us */
@@ -10,10 +10,9 @@
 position: absolute;
 width: 82px;
 height: 19px;
-left: 900px;
+left: 850px;
 top: 34px;
-
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -28,7 +27,7 @@ color: #000000;
     position: absolute;
     width: 93px;
     height: 19px;
-    left: 1009px;
+    left: 959px;
     top: 34px;
     
     font-family: Roboto;
@@ -46,7 +45,7 @@ color: #000000;
 position: absolute;
 width: 77px;
 height: 19px;
-left: 1114px;
+left: 1080px;
 top: 34px;
 
 font-family: Roboto;
@@ -64,7 +63,7 @@ color: #000000;
     position: absolute;
     width: 53px;
     height: 19px;
-    left: 1213px;
+    left: 1183px;
     top: 34px;
     
     font-family: Roboto;
@@ -78,15 +77,20 @@ color: #000000;
     color: #000000;
     }
     .image1{
-    position: absolute;
-width: 1392px;
+        /* image 1 */
+        position: absolute;
+        width: 1040px;
+        height: 381px;
+        left: 12px;
+        right:20px;
+/* width: 1392px;
 height: 450px;
-left: 24px;
+left: 24px; */
 top: 88px;
-
+overflow-x: visible;
 background: url(image1.jpeg);
 border-radius: 16px;
-    }
+ }
     /* Get found and grow your business. */
 .text1{
 position: absolute;
@@ -353,7 +357,7 @@ color: #FFFFFF;
     position: absolute;
 width: 688px;
 height: 500px;
-left: 728px;
+left: 658px;
 top: 935px;
 background: url(image2.jpeg);
 border-radius: 16px;
@@ -643,7 +647,7 @@ top: 2593px;
 border: 1px solid #000000;
 }
 /* Why join us */
-
+.why2{
 position: absolute;
 width: 82px;
 height: 19px;
@@ -659,11 +663,11 @@ line-height: 19px;
 text-align: right;
 
 color: #000000;
-
+}
 
 
 /* How it works */
-
+.how{
 position: absolute;
 width: 93px;
 height: 19px;
@@ -679,11 +683,11 @@ line-height: 19px;
 text-align: right;
 
 color: #000000;
-
+}
 
 
 /* Boni, 2021 */
-
+.boni{
 position: absolute;
 width: 84px;
 height: 19px;
@@ -699,3 +703,39 @@ line-height: 19px;
 text-align: right;
 
 color: #000000;
+}
+.contact{
+position: absolute;
+width: 77px;
+height: 19px;
+left: 759px;
+top: 2629px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: right;
+
+color: #000000;
+}
+.bottom-sign{
+position: absolute;
+width: 53px;
+height: 19px;
+left: 868px;
+top: 2629px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: right;
+color: #000000;
+
+
+}
