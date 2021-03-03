@@ -95,6 +95,7 @@ color: #000000;
     .image1{
         /* image 1 */
         position: absolute;
+        max-width: 100%;
         width: 1040px;
         height: 381px;
         left: 12px;
