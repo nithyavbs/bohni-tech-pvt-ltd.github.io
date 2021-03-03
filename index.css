@@ -91,7 +91,7 @@ overflow-x: visible;
 background: url(image1.jpeg);
 border-radius: 16px;
  }
-    /* Get found and grow your business. */
+    /* Get found andgrow your business. */
 .text1{
 position: absolute;
 width: 806px;
@@ -138,13 +138,11 @@ width: 287px;
 height: 38px;
 left: 987px;
 top: 622px;
-
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight:normal;
 font-size: 16px;
 line-height: 19px;
-
 color: #ffffff;
 }
 /* Sign up and upload your shop items in a few easy steps. */
@@ -154,13 +152,11 @@ width: 287px;
 height: 38px;
 left: 987px;
 top: 668px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
-
 color: #FFFFFF;
 }
 /* image 3 */
@@ -396,7 +392,7 @@ color: #000000;
 position: absolute;
 width: 336px;
 height: 385px;
-left: 141px;
+left: 181px;
 top: 1591px;
 
 background: #FFFFFF;
@@ -408,7 +404,7 @@ border-radius: 16px;
 position: absolute;
 width: 105px;
 height: 19px;
-left: 256px;
+left: 286px;
 top: 1774px;
 
 font-family: Roboto;
@@ -424,7 +420,7 @@ color: #000000;
     position: absolute;
 width: 336px;
 height: 385px;
-left: 493px;
+left: 543px;
 top: 1591px;
 
 background: #FFFFFF;
@@ -437,9 +433,8 @@ border-radius: 16px;
     position: absolute;
 width: 125px;
 height: 19px;
-left: 599px;
+left: 639px;
 top: 1774px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -453,27 +448,23 @@ color: hsl(0, 0%, 0%);
     position: absolute;
 width: 336px;
 height: 385px;
-left: 845px;
+left: 905px;
 top: 1591px;
-
 background: #FFFFFF;
 border: 1px solid #767676;
 box-sizing: border-box;
 border-radius: 16px;
-
-
 }
 .s10{
     position: absolute;
 width: 146px;
 height: 19px;
-left: 940px;
+left: 999px;
 top: 1774px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 15px;
 line-height: 19px;
 /* identical to box height */
 
@@ -483,9 +474,8 @@ color: #000000;
     position: absolute;
     width: 285px;
     height: 19px;
-    left: 141px;
+    left: 181px;
     top: 2000px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -499,7 +489,7 @@ color: #000000;
     position: absolute;
 width: 336px;
 height: 38px;
-left: 141px;
+left: 181px;
 top: 2027px;
 
 font-family: Roboto;
@@ -514,7 +504,7 @@ color: #000000;
     position: absolute;
     width: 224px;
     height: 19px;
-    left: 493px;
+    left: 553px;
     top: 2000px;
     
     font-family: Roboto;
@@ -531,7 +521,7 @@ color: #000000;
     position: absolute;
     width: 336px;
     height: 38px;
-    left: 493px;
+    left: 553px;
     top: 2027px;
     
     font-family: Roboto;
@@ -546,7 +536,7 @@ color: #000000;
     position: absolute;
 width: 177px;
 height: 19px;
-left: 845px;
+left: 915px;
 top: 2000px;
 
 font-family: Roboto;
@@ -562,7 +552,7 @@ color: #000000;
     position: absolute;
 width: 336px;
 height: 57px;
-left: 845px;
+left: 915px;
 top: 2027px;
 
 font-family: Roboto;
@@ -689,9 +679,9 @@ color: #000000;
 /* Boni, 2021 */
 .boni{
 position: absolute;
-width: 84px;
+width: 184px;
 height: 19px;
-left: 678px;
+left: 610px;
 top: 2684px;
 
 font-family: Roboto;
@@ -736,6 +726,42 @@ line-height: 19px;
 /* identical to box height */
 text-align: right;
 color: #000000;
-
-
 }
+.single-image {
+    margin-bottom: 10px;
+    padding-left:1px;
+  }
+  .about section {
+    margin-bottom: 50px;
+    font-family:Roboto;
+  }
+  .about .about-content h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .about .about-content p {
+    font-size: 14px;
+    text-align: inherit;
+  }
+  .about .about-content .btn-more {
+    text-transform: uppercase;
+    margin-top: 26px;
+  }
+  .about{
+      font-family:Roboto;
+  }
+  #copyright {
+    background: #444444;
+    padding: 20px 0;
+  }
+  #copyright p {
+    color: #fff;
+    line-height: 32px;
+  }
+  #copyright p a {
+    color: #fff;
+  }
+  #copyright p a:hover {
+    color: #d8dae2;
+  }
