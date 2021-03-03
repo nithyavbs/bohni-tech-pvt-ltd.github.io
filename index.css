@@ -5,6 +5,22 @@
 padding-top: 20px;
     background: #FFFFFF;
     }
+.home{
+    position: absolute;
+width: 82px;
+height: 19px;
+left: 750px;
+top: 34px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: right;
+
+color: #000000;
+}
     /* Why join us */
 .menu{
 position: absolute;
@@ -753,11 +769,12 @@ color: #000000;
   }
   #copyright {
     background: #444444;
-    padding: 20px 0;
-  }
+    padding: 5px 0;
+      }
   #copyright p {
     color: #fff;
     line-height: 32px;
+    
   }
   #copyright p a {
     color: #fff;
