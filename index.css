@@ -58,6 +58,9 @@ html {
         left:0;
         bottom:-14px;
     } */
+    .hero-container .left {
+        flex: 1;
+      }
    .hero-image{
     position: absolute;
     max-width: 100%;
@@ -223,10 +226,10 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
-text-align: right;
+/* text-align: right;
 
 color: #000000;
-} */
+} */ 
 /* Sign up */
 /* .sign-up{
     position: absolute;
@@ -241,28 +244,37 @@ color: #000000;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    text-align: right;
+    /* text-align: right;
     
     color: #000000;
-    } */
-    .image1{
+    }  */
+    /* .image1{
         /* image 1 */
-        position: absolute;
+        /* position: absolute;
         max-width: 100%;
         width: 1040px;
         height: 381px;
         left: 12px;
-        right:20px;
+        right:20px; */
 /* width: 1392px;
 height: 450px;
 left: 24px; */
-top: 88px;
+/* top: 88px;
 overflow-x: visible;
 background: url(image1.jpeg);
-border-radius: 16px;
- }
+border-radius: 16px; */
+ /* }  */
     /* Get found andgrow your business. */
-.text1{
+    .about-section .section-content {
+        display: flex;
+        align-items: center;
+      }
+      
+      .about-section .section-content img {
+        margin-left: 100px;
+      }
+    
+.about-section .section-content .text1{
 position: absolute;
 width: 806px;
 height: 188px;
@@ -900,44 +912,103 @@ color: #000000;
 /* Media Query Section */
 @media(max-width:650px){
     .wrapper{
-padding:0;
-width:auto;
-    }
-    .desktop-nav .menu-items{
-        display:none;
-    }
-    .desktop-nav{
-        width:(100%-48px);
-    }
-    .mobile-nav .logo{
-        height: 14px;
-        width: 57px;
-        left: 132px;
-        top: 35px;
-        border-radius: nullpx;
+        padding:0;
+        width:auto;
+        /* position: relative; */
+        /* width: 320px; */
+        height: 3778px;
+        background: #FFFFFF;
+        margin: 0 auto;
+        /* padding: 0 24px; */
+        /* padding-top:35px; */
+        }
+        .desktop-nav .menu-items{
+            display:none;
+        }
+        /* .desktop-nav .logo{
+            display:none;
+        } */
+        .desktop-nav .logo-image .logo{
+            height: 14px;
+            width: 57px;
+            left: 132px;
+            right:131px;
+            top: 35px;
+            position:absolute;
+    
+               }
+        .hero-container .left {
+                flex: 1;
+              }
+       .hero-container .hero-image .image1{
+            position: absolute;
+            max-width: 100%;
+            width: 100%;
+  height: auto;
+            /* width: 1024px;
+            height: 381px; */
+            /* left: 12px; */
+            height: 93px;
+    width: 288px;
+    left: 16px;
+    top: 88px;
+    border-radius: 4px;
+    
+        overflow-x:visible;
+        /* background: url(assets/img/image1.png); */
            }
-   .mobile-nav .hero-image{
-        position: absolute;
-        max-width: 100%;
-        /* width: 1024px;
-        height: 381px; */
-        /* left: 12px; */
-        height: 93px;
+           section {
+            padding: 100px 30px 0 30px;
+            height: 141px;
 width: 288px;
 left: 16px;
-top: 88px;
-border-radius: 4px;
+top: 205px;
 
-    overflow-x:visible;
-    /* background: url(assets/img/image1.png); */
-       }
-    header #brand{
-        float:none;
-        text-align:center;
-        width:100%;
-    }
-    header {
-        padding-bottom:30px;
+          }
+          
+          .about-section .section-content {
+            flex-direction: column;
+    
+          }
+          .section-content .text1 {
+            height: 141px;
+            width: 288px;
+            left: 16px;
+            top: 205px;
+             }
+          .about-section .section-content .p3{
+            height: 95px;
+            width: 288px;
+            left: 16px;
+            top: 362px;
+            height: 95px;
+           
+          }
+          .about-section .section-content img {
+            margin-left: 0;
+            margin-top: 30px;
+          }
 }
+    
+/* .mobile-nav{
+    width
+    height: 3778px;
+width: 320px;
+left: 4912px;
+top: -495px;
+border-radius: 0px;
+
+   display:flex;
+        left:1224px;
+        justify-content:space-between;
+        /* align-items: center; */
+        /* position:fixed; */
+        /* z-index:100; */
+        
+        /* }  */
+
+  
+    
+
 
 
