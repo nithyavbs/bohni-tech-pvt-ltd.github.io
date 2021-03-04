@@ -1,6 +1,9 @@
 :root{
 
 }
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin:0;
     box-sizing: border-box;
@@ -895,7 +898,39 @@ text-align: right;
 color: #000000;
 }
 /* Media Query Section */
-@media(max-width:640px){
+@media(max-width:650px){
+    .wrapper{
+padding:0;
+width:auto;
+    }
+    .desktop-nav .menu-items{
+        display:none;
+    }
+    .desktop-nav{
+        width:(100%-48px);
+    }
+    .mobile-nav .logo{
+        height: 14px;
+        width: 57px;
+        left: 132px;
+        top: 35px;
+        border-radius: nullpx;
+           }
+   .mobile-nav .hero-image{
+        position: absolute;
+        max-width: 100%;
+        /* width: 1024px;
+        height: 381px; */
+        /* left: 12px; */
+        height: 93px;
+width: 288px;
+left: 16px;
+top: 88px;
+border-radius: 4px;
+
+    overflow-x:visible;
+    /* background: url(assets/img/image1.png); */
+       }
     header #brand{
         float:none;
         text-align:center;
@@ -906,42 +941,3 @@ color: #000000;
 }
 
 
-.single-image {
-    margin-bottom: 10px;
-    padding-left:1px;
-  }
-  .about section {
-    margin-bottom: 50px;
-    font-family:Roboto;
-  }
-  .about .about-content h3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .about .about-content p {
-    font-size: 14px;
-    text-align: inherit;
-  }
-  .about .about-content .btn-more {
-    text-transform: uppercase;
-    margin-top: 26px;
-  }
-  .about{
-      font-family:Roboto;
-  }
-  #copyright {
-    background: #444444;
-    padding: 5px 0;
-      }
-  #copyright p {
-    color: #fff;
-    line-height: 32px;
-    
-  }
-  #copyright p a {
-    color: #fff;
-  }
-  #copyright p a:hover {
-    color: #d8dae2;
-  }
