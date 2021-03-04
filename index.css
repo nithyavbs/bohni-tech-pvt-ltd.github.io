@@ -1,4 +1,146 @@
-.logo{
+:root{
+
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: "Roboto",sans-serif;
+    }
+    .wrapper{
+        width:1440px;
+        margin: 0 auto;
+        padding: 0 24px;
+        padding-top:34px;
+    }
+/* Header Navigation */
+.desktop-nav{
+    display:flex;
+    left:1224px;
+    justify-content:space-between;
+    /* align-items: center; */
+    background:rgb(255, 255, 255);
+    /* position:fixed; */
+    /* z-index:100; */
+    padding-right:0;
+    
+    }
+    .desktop-nav .menu-items{
+        display:flex;
+        list-style:none;
+        top:34px;
+
+    }
+    .desktop-nav .menu-items li{
+        margin:0 20px;
+        top:34px;
+    }
+    .desktop-nav .menu-items li:nth-last-of-type(1){
+        margin-right:0;
+    }
+    .desktop-nav .menu-items li a{
+        text-decoration: none;
+        color:black;
+        font-size:16px;
+        font-weight:bold;
+        position:relative;
+    }
+    /* .desktop-nav .menu-items li a.active::after{
+        content:"";
+        position:absolute;
+        height:3px;
+        width:100%;
+        background-color: rgba(4, 4, 51, 0.534);
+        left:0;
+        bottom:-14px;
+    } */
+   .hero-image{
+    position: absolute;
+    max-width: 100%;
+    /* width: 1024px;
+    height: 381px; */
+    /* left: 12px; */
+    right:20px;
+    padding-top: 20px;
+width: 1392px;
+height: 450px;
+left: 24px;
+top: 88px;
+overflow-x:visible;
+/* background: url(assets/img/image1.png); */
+border-radius: 16px;
+   }
+   a.btn {
+    /* background:black;
+    color: rgb(14, 13, 13);
+    border-radius: 24px;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold; */
+    transition: background-color 400ms;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+position: absolute;
+border-radius: 4px;
+text-decoration: none;
+width: 103px;
+height: 51px;
+left: 141px;
+top: 1289px;
+/* text-emphasis-color: white; */
+background: #000000;
+border-radius: 4px;
+  }
+  a.btn2{
+    transition: background-color 400ms;
+    position: absolute;
+    width: 103px;
+    height: 51px;
+    left: 669px;
+    top: 2347px;
+    background: #000000;
+    color: #ffffff;
+    line-height: 39px;
+    transition: background-color 400ms;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+position: absolute;
+border-radius: 24px;
+text-decoration: none;
+width: 103px;
+height: 51px;
+left: 141px;
+top: 1289px;
+  }
+  /* section a.btn {
+    display: inline-block;
+  } */
+  
+  a.btn.cyan {
+    background: var(--cyan-color);
+    color: var(--dark-color);
+  }
+  
+  a.btn:hover {
+    background: grey;
+  }
+  a.btn2:hover {
+    background: grey;
+  }
+  
+  
+  a.btn.cyan:hover {
+    background: var(--cyan-hover-color);
+  }
+  
+/* .logo{
     position: relative;
     width: 800px;
     height: 183px;
@@ -12,8 +154,8 @@ left: 3351px;
 top: -495px;
 border-radius: 0px;
 
-    } */
-.home{
+    } */ */
+/* .home{
     position: absolute;
 width: 82px;
 height: 19px;
@@ -25,12 +167,12 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
-text-align: right;
+/* text-align: right;
 
 color: #000000;
-}
+} */
     /* Why join us */
-.menu{
+/* .menu{
 position: absolute;
 width: 82px;
 height: 19px;
@@ -40,14 +182,14 @@ font-family: "Roboto";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 19px; */
 /* identical to box height */
-text-align: right;
+/* text-align: right;
 
 color: #000000;
-}
+} */
 /* How it works */
-.how-it-works{
+/* .how-it-works{
     position: absolute;
     width: 93px;
     height: 19px;
@@ -60,12 +202,12 @@ color: #000000;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    text-align: right;
+    /* text-align: right;
     color: #000000;
-    }
+    }  */
 
 /* Contact us */
-.contact-us{
+/* .contact-us{
 position: absolute;
 width: 77px;
 height: 19px;
@@ -81,9 +223,9 @@ line-height: 19px;
 text-align: right;
 
 color: #000000;
-}
+} */
 /* Sign up */
-.sign-up{
+/* .sign-up{
     position: absolute;
     width: 53px;
     height: 19px;
@@ -99,7 +241,7 @@ color: #000000;
     text-align: right;
     
     color: #000000;
-    }
+    } */
     .image1{
         /* image 1 */
         position: absolute;
@@ -752,6 +894,18 @@ line-height: 19px;
 text-align: right;
 color: #000000;
 }
+/* Media Query Section */
+@media(max-width:640px){
+    header #brand{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header {
+        padding-bottom:30px;
+}
+
+
 .single-image {
     margin-bottom: 10px;
     padding-left:1px;
